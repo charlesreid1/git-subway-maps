@@ -1,0 +1,9 @@
+/* The main DIV for the map */
+.subway-map
+{
+    margin: 0;
+    width: 500px;
+    height:200px;
+    background-color: white;
+}
+

@@ -3,66 +3,23 @@
     <title>Git Map</title>
     <script type="text/javascript" src="jquery-1.9.0.min.js"></script>
     <script type="text/javascript" src="jquery.subwayMap-0.5.0.js"></script>
-    <style type="text/css">
-    body
-    {
-        font-family: Verdana;
-        font-size: 8pt;
-    }
-
-    /* The main DIV for the map */
-    .subway-map
-    {
-        margin: 0;
-        width: 500px;
-        height:300px;
-        background-color: white;
-    }
-
-    /* Text labels */
-    .text
-    {
-        text-decoration: none;
-        color: black;
-    }
-
-    #legend
-    {
-        float: left;
-        width: 250px;
-        height:400px;
-    }
-
-    #legend div
-    {
-        height: 25px;
-    }
-
-    #legend span
-    {
-        margin: 5px 5px 5px 0;
-    }
-    .subway-map span
-    {
-        margin: 5px 5px 5px 0;
-    }
- 
-    </style>
+    <link href="subway.css" rel="stylesheet">
+    <link href="one_branch.css" rel="stylesheet">
 </head>
 <body>
-    <div class="subway-map" data-columns="10" data-rows="3" data-cellSize="40" 
-        data-legendId="legend" data-textClass="text" data-gridNumbers="true" 
+    <div class="subway-map" data-columns="10" data-rows="3" data-cellSize="45"
+        data-legendId="legend" data-textClass="text" data-gridNumbers="true"
         data-grid="false" data-lineWidth="8">
 
-        <ul data-color="#ff4db2" data-label="jQuery Widgets">          
-            <li data-coords="2,2" data-labelPos="W" data-marker="interchange">1</li>  
-            <li data-coords="3,2" data-labelPos="N">2</li>
-            <li data-coords="4,2" data-labelPos="S">3</li>
-            <li data-coords="5,2" data-labelPos="N">4</li>
-            <li data-coords="6,2">5</li>
-            <li data-coords="7,2" data-labelPos="N">6</li>
-            <li data-coords="8,2">7</li>
-            <li data-coords="9,2" data-labelPos="E">8</li>
+        <ul data-color="#aced00" data-label="master branch">
+            <li data-coords="2,2" data-labelPos="W" data-marker="interchange">83bca09</li>  
+            <li data-coords="3,2" data-labelPos="N">a72b587</li>
+            <li data-coords="4,2" data-labelPos="S">bf8a986</li>
+            <li data-coords="5,2" data-labelPos="N">5e6f031</li>
+            <li data-coords="6,2">734b547</li>
+            <li data-coords="7,2" data-labelPos="N">25803aa</li>
+            <li data-coords="8,2">60c0ff0</li>
+            <li data-coords="9,2" data-labelPos="E">70b8130</li>
             <!--
                 Any additional stations will get cut off on the right side
             -->
