@@ -8,3 +8,4 @@ Branches:
 * `pelican` - contains the files to generate the Pelican site
 * `gh-pages` - contains the final Pelican site content
 
+You are currently on the `pelican` branch.
