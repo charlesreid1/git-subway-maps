@@ -14,7 +14,6 @@ OUTPUT_PATH = 'output'
 # Theme
 
 THEME = 'simple-bootstrap'
-# https://github.com/getpelican/pelican-themes/tree/master/pelican-bootstrap3
 
 # --------------8<---------------------
 # Files and content
@@ -26,7 +25,7 @@ READERS = {'html': None}
 # inside the directory content/
 # The contents of img/ will be available at 
 # {{ SITEURL }}/img
-STATIC_PATHS = ['img']
+STATIC_PATHS = ['img','css','vendor']
 
 
 # --------------8<---------------------
@@ -39,6 +38,11 @@ TEMPLATE_PAGES['index.html'] = 'index.html'
 EXTRA_TEMPLATES_PATHS.append('subway')
 TEMPLATE_PAGES['one_branch.html']     = 'one_branch.html'
 TEMPLATE_PAGES['two_branches.html']   = 'two_branches.html'
+
+TEMPLATE_PAGES['subway.css']          = 'subway.css'
+TEMPLATE_PAGES['one_branch.css']      = 'one_branch.css'
+TEMPLATE_PAGES['two_branches.css']    = 'two_branches.css'
+
 TEMPLATE_PAGES['jquery-1.9.0.min.js'] = 'jquery-1.9.0.min.js'
 TEMPLATE_PAGES['jquery.subwayMap-0.5.0.js'] = 'jquery.subwayMap-0.5.0.js'
 
