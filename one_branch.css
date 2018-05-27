@@ -1,4 +1,6 @@
-/* The main DIV for the map */
+/**
+ * These styles are for one-branch maps.
+ */
 .subway-map
 {
     margin: 0;
@@ -7,3 +9,6 @@
     background-color: white;
 }
 
+div#legend {
+    margin-left: 50px;
+}
